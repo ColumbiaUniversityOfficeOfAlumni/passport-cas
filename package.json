@@ -1,0 +1,17 @@
+{
+  "name": "passport-cas",
+  "version": "0.1.0",
+  "description": "Passport strategy for authenticating against a CAS server",
+  "keywords": [
+    "passport",
+    "authentication",
+    "CAS"
+  ],
+  "dependencies":{
+      "passport": "0.2.x",
+      "xml2js":"0.4.x"
+  },
+  "main":"./lib/passport-cas",
+  "author": "David J. Park",
+  "license": "BSD"
+}
