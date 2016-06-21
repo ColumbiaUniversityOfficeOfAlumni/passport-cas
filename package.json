@@ -7,11 +7,18 @@
     "authentication",
     "CAS"
   ],
-  "dependencies":{
-      "passport": "0.2.x",
-      "xml2js":"0.4.x"
+  "dependencies": {
+    "moment": "^2.13.0",
+    "node-uuid": "^1.4.7",
+    "passport": "0.2.x",
+    "request": "^2.72.0",
+    "xml2js": "0.4.x",
+    "xml2js-xpath": "^0.6.0"
   },
-  "main":"./lib/passport-cas",
+  "main": "./lib/passport-cas",
   "author": "David J. Park",
-  "license": "BSD"
+  "license": "BSD",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
 }
